@@ -25,7 +25,10 @@ import javax.validation.constraints.Size;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
+/**
+ * The JSR 349 validated bean.
+ * @author mmaheshwari
+ */
 @Component
 public class Person {
 
